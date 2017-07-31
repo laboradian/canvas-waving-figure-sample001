@@ -1,0 +1,22 @@
+@import './bootstrap-variables';
+@import './bootstrap-custom';
+
+body {
+  padding: 20px;
+}
+
+footer {
+  text-align: right;
+}
+
+.lr-container {
+  //display: flex;
+  & > div {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.lr-canvas {
+  background-color: #fff8db;
+}
